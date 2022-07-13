@@ -1,0 +1,97 @@
+body{
+    background-color: antiquewhite;
+    width: 1440px;
+}
+
+.product{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 50% 30% ;
+}
+
+
+#text{
+    background-color: white;
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+}
+
+
+#perfume{
+    color: darkgrey;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10%;
+    margin-left: 9%;
+    font-size: 80%;
+    margin-bottom: 6%;
+}
+
+#text p{
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: 500;
+    color: darkgray;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 10%;
+}
+
+#price{
+    margin-left: 0%;
+    display: flex;
+    margin-top: 10%;
+}
+
+#image{
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+#old{
+    text-decoration: line-through;
+    color: darkgray;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 13px;
+    font-size: 80%;
+    margin-left: 10%;
+}
+
+#cart{
+    background-color: darkcyan;
+    padding: 8%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-right: 10%;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 13%;
+}
+
+#cart svg{
+    margin-left: 14%;
+}
+
+#cart li{
+    margin-left: 10%;
+    color: white;
+}
+
+#bold{
+    
+    font-weight: 700;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 180%;
+    
+}
+
+#new{
+    font-family: 'Dancing Script', cursive;
+    color: darkcyan;
+    font-weight: 700;
+    font-size: 170%;
+    margin-left: 10%;
+}
